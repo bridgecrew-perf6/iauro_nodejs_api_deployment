@@ -1,0 +1,69 @@
+
+GET http://localhost:4000/
+
+###
+
+GET  http://localhost:4000/products
+
+###
+
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+  "name": "MacBook Pro 14.2",
+  "price": 1999
+}
+
+###
+
+GET http://localhost:3000/products/621daf92e4748252f0e0e0e3
+
+###
+PATCH  http://localhost:3000/products/621daf92e4748252f0e0e0e3
+Content-Type: application/json
+{
+  "price": 5999
+}
+
+###
+DELETE  http://localhost:3000/products/5df118b3c86e5826958b661a
+
+###
+GET http://localhost:3000/abc_xyz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hrXWgw4Q127uqZJ3
